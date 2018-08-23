@@ -1,0 +1,17 @@
+<view class='loginform'>
+  <view class='input-line input-line_special'>
+    <input class='input-vl' type='text' bindinput="loginName" placeholder='请输入您的用户名'></input>
+  </view>
+  <view class='input-line input-line_special'>
+    <input class='input-vl' type='password' bindinput="loginPswd" placeholder='请输入您的密码'></input>
+  </view>
+  <view class='input-line'>
+    <input class='input-vl' type='password' bindinput="loginPswdag" placeholder='请再次输入您的密码'></input>
+  </view>
+  <view class="wronginfo">
+    <text wx:if="wronginfo != ''">{{wronginfo}}</text>
+  </view>
+  <view class='button-line button-line_special'>
+    <button class='button-vl' type='primary' bindtap="toRegister">立即注册</button>
+  </view>
+</view>

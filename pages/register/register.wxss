@@ -1,0 +1,18 @@
+/* pages/register/register.wxss */
+@import '../../lib/common.wxss';
+
+.loginform{
+  margin-top: 20px;
+}
+.input-line_special{
+  border-bottom: none;
+}
+.button-line_special{
+  margin-top: 20px;
+}
+.wronginfo{
+  padding: 0 10px;
+  line-height: 30px;
+  color: #f00;
+  height: 30px;
+}

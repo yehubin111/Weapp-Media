@@ -1,0 +1,17 @@
+.input-line{
+  border-top: 1px solid #f6f6f6;
+  border-bottom: 1px solid #f6f6f6;
+  padding: 0 10px;
+}
+.input-vl{
+  height: 3em;
+  min-height: 3em;
+  line-height: 3em;
+}
+.button-line{
+  display: flex;
+  justify-content: center;
+}
+.button-vl{
+  width: 80%;
+}

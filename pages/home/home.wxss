@@ -1,0 +1,28 @@
+/* pages/login/login.wxss */
+@keyframes showlogo {
+  from{
+    opacity: 0;
+    transform: translate(0, -100%);
+  }
+  to{
+    opacity: 1;
+    transform: translate(0, 50px);
+  }
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  animation: showlogo 1s;
+  animation-fill-mode: forwards;
+}
+.button{
+  position: absolute;
+  top: 200px;
+  width: 100%;
+}
+.button button{
+  width: 80%;
+}
+.login{
+  margin-bottom: 20px;
+}

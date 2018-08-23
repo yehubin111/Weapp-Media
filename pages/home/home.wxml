@@ -1,0 +1,8 @@
+<!--pages/login/login.wxml-->
+<view class="logo">
+  <image class="logoicon" src="http://www.unitymob.com/jollychic-static/images/logo.png" style="width: 200px;height: 37px"></image>
+</view>
+<view class='button'>
+  <button type="primary" class="login" bindtap='toLogin'>已有账号，去登录</button>
+  <button bindtap='toRegister'>没有账号，去注册</button>
+</view>
